@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_grad"
+    android:layout_margin="7dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".UserLoginActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tic_tac_toe"
+        android:layout_marginBottom="15dp"
+        />
+    <EditText
+        android:id="@+id/pname1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_dr"
+        android:padding="15dp"
+        android:layout_margin="7dp"
+        android:hint="Player 1 name"/>
+    <EditText
+        android:id="@+id/pname2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_dr"
+        android:padding="15dp"
+        android:layout_margin="7dp"
+        android:hint="Player 2 name"/>
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:layout_margin="7dp"/>
+</LinearLayout>
